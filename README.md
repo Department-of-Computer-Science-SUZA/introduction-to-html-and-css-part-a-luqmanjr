@@ -130,12 +130,12 @@ Implement a dark mode using Sass variables
 
 ## ✅ Submission Checklist
 
-- [ ] `index.html` with complete structure
-- [ ] `form.html` with inputs and validation
-- [ ] `style.css` applied correctly
-- [ ] Responsive behavior tested
-- [ ] Bootstrap components integrated
-- [ ] Sass code (optional)
+- [done ] `index.html` with complete structure
+- [done ] `form.html` with inputs and validation
+- [ done] `style.css` applied correctly
+- [done ] Responsive behavior tested
+- [done ] Bootstrap components integrated
+- [ ---] Sass code (optional)
 
 ---
 

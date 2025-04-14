@@ -1,0 +1,25 @@
+#my{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.userform{
+    background-color: aliceblue;
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+}
+
+.viewimg{ 
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}

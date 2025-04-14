@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+    
+</head>
+<body>
+    <div class="content">
+        <h1 id="my">MY FORM DETAILS</h1>
+        <form class="userform">
+            <fieldset>
+                <legend>User Information</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password"><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" value="male" name="gender">Male
+                <input type="radio" id="female" value="female" name="gender">Female
+                <br>
+                <h4>Interest:</h4>
+                <input type="checkbox" id="football" name="football" value="football">
+                <label for="football">Football</label><br>
+                <input type="checkbox" id="Game" name="Game" value="Game">
+                <label for="game">Game</label><br>
+                <input type="checkbox" id="learn" name="learn" value="learn">
+                <label for="learn">Learning</label>
+                <br>
+                <br>
+                <label for="country">Country: </label><br>
+                <select name="country" id="country" style="width: 150px;">
+                    <option value="usa">USA</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="ind">Indonesia</option>
+                    <option value="znz">Zanzibar</option>
+                </select>
+                <br>
+                <center><button type="submit" style="margin-top: 20px;">Submit</button></center>
+            </fieldset>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
